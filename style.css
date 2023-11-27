@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+   
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(background.jpg);
+    background-position: 45% 65%;
+    width: 100%;
+    height: 96vh;
+   position: relative;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+}
+
+.dummy{
+    height: 96vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+}
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+nav .logo{
+    margin-left: -50px;
+}
+
+nav .buttons{
+    padding-left: 515px;
+     background: transparent;
+    margin-top: -17px;
+}
+
+.btn{
+    padding: 8px 20px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.674);
+    cursor: pointer;
+}
+
+.one{
+    width: 130px;
+}
+.two{
+    background-color: red;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 280px;
+   left: 200px;
+   gap: 19px;
+    color: white;
+}
+
+.first{
+ font-size: 55px;
+ font-weight: bolder;
+}
+
+.sec{
+    font-size: 30px;
+    font-weight: bold0;
+}
+.third{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bn{
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.362);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.three{
+  width: 360px;
+  background: transparent;
+  text-align: left;
+  
+}
+.four{
+    width: 220px;
+    background-color: red;
+    margin-left: 10px;
+}
+.three input{
+   background: transparent;
+   border: none;
+   width: 360px;
+   outline: none;
+   color: white;
+   font-size: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: #343333;
+}
+
+
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 75px;
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+}
+
+.box1 > div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.box1 .text span:first-child{
+    font-size: 55px;
+    font-weight: 900;
+}
+.box1 .text span:nth-child(2){
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 22px;
+    line-height: 32px;
+}
+
+.box1 .text{
+letter-spacing: 1px;
+}
+
+.box1 .img{
+    display: flex;
+    position: relative;
+}
+.box1 .img img{
+    z-index: 2;
+}
+.box1 .img video{
+    position: absolute;
+    top: 94px;
+    left: 86px;
+    width: 466px;
+  
+}
+.line1{
+    width: 100%;
+    height: 8px;
+    background-color: #343333;
+    margin-top: 70px;
+}
+
+.box2{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 .info span:first-child{
+    font-size: 55px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.box2 .info span:nth-child(2){
+    font-size: 26px;
+    font-weight: 500;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 75px;
+    position: relative;
+}
+
+.box3 > div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.box3  .text span:first-child{
+    font-size: 55px;
+    font-weight: 900;
+}
+.box3  .text span:nth-child(2){
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 22px;
+    line-height: 32px;
+}
+
+.box3  .text{
+letter-spacing: 1px;
+}
+
+.box3  .img{
+    display: flex;
+    position: relative;
+}
+.box3 .img img{
+    z-index: 2;
+}
+.box3  .img video{
+    position: absolute;
+    top: 44px;
+    left: 110px;
+    width: 406px;
+}
+
+.faq{
+    color: white;
+    margin-top: 60px;
+}
+
+.faq h1{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 49px;
+    font-weight: 800;
+}
+
+ .faq1{
+    background-color: #2d2d2d;
+    width: 70%;
+    margin: auto;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.5s ease-out;
+
+}
+.faq1:hover{
+    background-color: rgb(98, 95, 95);
+}
+.faq .faq1 span{
+    padding: 40px;
+}
+
+.endbutts{
+    padding-top: 29px;
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.endbutts .sub{
+    margin-top: 20px;
+}
+.sub .three:hover{
+     border: 2px solid white;
+}
+.sub{
+    transition: 1s;
+}
+
+.four:hover{
+    background-color: rgb(181, 22, 22);
+}
+
+footer{
+    color: white;
+    margin-top: 50px;
+    height: 400px;
+}
+footer .q1{
+    width: 70%;
+    margin: auto;
+}
+
+.foots{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.z{
+    padding-left: 175px;
+}
+
+.foots li{
+    list-style-type: none;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.last{
+    color: white;
+    width: 70%;
+    margin:auto;
+    padding-top: 25px;
+}
+
+.eng button{
+    background: transparent;
+    width: 120px;
+    height: 35px;
+    color: white;
+    border-radius: 4px;
+}
+.last .loc{
+    padding-top: 15px;
+}
