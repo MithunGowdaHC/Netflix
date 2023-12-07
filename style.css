@@ -6,41 +6,46 @@
 }
 body{
     background-color: black;
+    
+    height: 100vh;
+    width: 100vw;
 }
 
 .main{
     background-image: url(background.jpg);
-    background-position: 45% 65%;
+    background-position: 40% 82%;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 96vh;
+    height: 100%;
+    object-fit: cover;
+    /* transform: scale(1.25) translateY(-10%); */
    position: relative;
    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
 }
 
 .dummy{
-    height: 96vh;
+    height: 100%;
     width: 100%;
     background-color: black;
     opacity: 0.65;
 }
 nav{
-    display: flex;
-    height: 100px;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    top: 0;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 12%;
+        width: 77%;
+        margin: auto;
 }
 
-nav .logo{
-    margin-left: -50px;
-}
 
 nav .buttons{
-    padding-left: 515px;
+    
      background: transparent;
-    margin-top: -17px;
+    
 }
 
 .btn{
@@ -69,23 +74,33 @@ nav .buttons{
     justify-content: center;
     align-items: center;
     top: 280px;
-   left: 200px;
    gap: 19px;
+   width: 100%;
+   margin: auto;
     color: white;
 }
 
 .first{
- font-size: 55px;
- font-weight: bolder;
+ font-size: 3rem;
+ font-weight: 900;
+text-align: center;
+
 }
 
 .sec{
-    font-size: 30px;
-    font-weight: bold0;
+    font-size: clamp(12px,10vw,32px);
+    font-weight: bold;
+text-align: center;
+
 }
 .third{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
+text-align: center;
+
+}
+.sub{
+    margin-top: 27px;
 }
 .bn{
     padding: 15px 10px;
@@ -355,3 +370,4 @@ footer .q1{
 .last .loc{
     padding-top: 15px;
 }
+
